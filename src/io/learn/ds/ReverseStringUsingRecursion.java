@@ -1,6 +1,6 @@
 package io.learn.ds;
 
-public class ReversionOfStringUsingRecursion {
+public class ReverseStringUsingRecursion {
 
 	static int i = -1;
 	static StringBuilder string = new StringBuilder();
