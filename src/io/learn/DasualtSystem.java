@@ -17,6 +17,9 @@ public class DasualtSystem {
         lst.add("seeta");
         lst.add("meera");
         
+         
+        
+        
         //If you really want an immutable list, you should use the Collections.unmodifiableList() method.
         
         final int a=10;
@@ -27,6 +30,12 @@ public class DasualtSystem {
         array[4]=45;
       //  array=new int[7];   not allowed
 
+	}
+	
+	
+	class Node{
+		int data;
+		Node next;
 	}
 
 }
