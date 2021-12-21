@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
+/**
+ * @author Vaishnavi
+ * Done Sorting on hashmap based on key and values
+ *
+ */
 public class RemoveDuplicateWords {
 
 	/**
@@ -11,7 +16,6 @@ public class RemoveDuplicateWords {
 	 */
 	public static void main(String[] args) {
 		String str = "Bangalore Pune Bangalore Chennai Mumbai Pune Mumbai Mumbai";
-		int value = 1;
 
 		HashMap<String, Integer> hashmap = new LinkedHashMap<>();
 
